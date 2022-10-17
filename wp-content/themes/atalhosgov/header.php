@@ -20,3 +20,9 @@ $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
     <link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/main.css">
     <?php wp_head(); ?>
 </head>
+<body <?php body_class('CustomContainer'); ?>>
+
+<header class="header">
+    <h1>Atalhos Gov</h1>
+    <a href="#">Sugerir inclusão de um novo link</a>
+</header>
